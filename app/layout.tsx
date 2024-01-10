@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}
-        <form name="test" netlify netlify-honeypot="bot-field" hidden>
+        <form name="test" netlify-honeypot="bot-field" data-netlify="true" hidden>
           <input type="text" name="name" />
           <input type="email" name="email" />
           <textarea name="message"></textarea>
